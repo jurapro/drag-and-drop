@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 100%;
+
+}
+
+section {
+    padding: 1rem;
+}
+
+.drop {
+    min-height: 120px;
+    width: 100%;
+    border: 3px dashed grey;
+}
+
+#jq {
+    background-color: linen;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#js {
+    background-color: aliceblue;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
